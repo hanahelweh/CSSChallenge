@@ -8,6 +8,7 @@
       width: 40%;
       background-color: rgb(81, 81, 81);
       border: 7px solid rgb(81, 81, 81);
+      box-sizing: border-box;
     }
     .column1{
       flex: 0.2;
@@ -15,25 +16,25 @@
     }
     .red{
       background-color: red;
-      height: 52%;
+      height: 149px;
     }
     .white{
       background-color: white;
-      height: 48%;
+      height: 138px;
     }
     .bigcolumn2{
       flex: 1;
       flex-direction: column;
     }
     .top{
-      height: 80px;
+      height: 70px;
     }
     .blue{
-      flex: 1;
+      flex: 1.5;
       background-color: rgb(7, 226, 226);
     }
     .beige{
-      flex: 1.5;
+      flex: 2;
       background-color: rgb(194, 194, 94);
     }
     .left{
@@ -44,22 +45,22 @@
       height: 120px;
     }
     .leftBottom{
-      height: 100px;
+      height: 90px;
     }
     .beige2{
-      flex: 3;
+      flex: 3.5;
       background-color: rgb(194, 194, 94);
     }
     .white2{
-      flex: 7;
+      flex: 6.5;
       background-color: white;
     }
     .red2{
-      flex: 7;
+      flex: 6;
       background-color: red;
     }
     .blue2{
-      flex: 3;
+      flex: 4;
       background-color: rgb(7, 226, 226);
     }
     .right{

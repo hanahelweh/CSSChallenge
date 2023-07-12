@@ -1,0 +1,35 @@
+<style>
+  table, tr, td{
+    border: 7px solid rgb(81, 81, 81);
+    border-collapse: collapse;
+  }
+</style>
+<table style="width: 650px;">
+  
+<tr>
+  <td rowspan="2" style="background-color: red; height: 145px; width: 120px;"></td>
+  <td colspan="2" style="background-color: rgb(7, 226, 226); height: 70px; width: 150px;"></td>
+  <td colspan="2" style="background-color: rgb(194, 194, 94); height: 70px; width: 150px;"></td>
+</tr>
+
+<tr>
+  <td rowspan="2" style="background-color: rgb(194, 194, 94); width: 150px; height: 120px;"></td>
+  <td colspan=2" rowspan="2" style="background-color: white; width: 150px; height: 120px;"></td>
+  <td rowspan="3" style="background-color: red; width: 120px; height: 120px;"></td>
+</tr>
+
+<tr>
+  <td rowspan="2" style="background-color: white; width: 120px; height: 120px;"></td>
+</tr>
+
+<tr>
+  <td colspan="2" style="background-color: red; height: 90px; width: 150px;"></td>
+  <td style="background-color: rgb(7, 226, 226); height: 90px; width: 150px;"></td>
+</tr>
+
+</table>
+<script>
+    view.scope(function (view, props) {
+
+    });
+</script>

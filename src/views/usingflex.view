@@ -1,0 +1,100 @@
+  <style>
+    .flex{
+      display: flex;
+      gap: 7px;
+    }
+    .container{
+      height: fit-content;
+      width: 40%;
+      background-color: rgb(81, 81, 81);
+      border: 7px solid rgb(81, 81, 81);
+    }
+    .column1{
+      flex: 0.2;
+      flex-direction: column;
+    }
+    .red{
+      background-color: red;
+      height: 52%;
+    }
+    .white{
+      background-color: white;
+      height: 48%;
+    }
+    .bigcolumn2{
+      flex: 1;
+      flex-direction: column;
+    }
+    .top{
+      height: 80px;
+    }
+    .blue{
+      flex: 1;
+      background-color: rgb(7, 226, 226);
+    }
+    .beige{
+      flex: 1.5;
+      background-color: rgb(194, 194, 94);
+    }
+    .left{
+      flex: 1;
+      flex-direction: column;
+    }
+    .leftTop{
+      height: 120px;
+    }
+    .leftBottom{
+      height: 100px;
+    }
+    .beige2{
+      flex: 3;
+      background-color: rgb(194, 194, 94);
+    }
+    .white2{
+      flex: 7;
+      background-color: white;
+    }
+    .red2{
+      flex: 7;
+      background-color: red;
+    }
+    .blue2{
+      flex: 3;
+      background-color: rgb(7, 226, 226);
+    }
+    .right{
+      background-color: red;
+      flex: 0.3;
+    }
+  </style>
+<div class="container flex">
+    <div class="column1 flex">
+      <div class="red"></div>
+      <div class="white"></div>
+    </div>
+    <div class="bigcolumn2 flex">
+      <div class="top flex">
+        <div class="blue"></div>
+        <div class="beige"></div>
+      </div>
+      <div class="bottom flex">
+        <div class="left flex">
+          <div class="leftTop flex">
+            <div class="beige2"></div>
+            <div class="white2"></div>
+          </div>
+          <div class="leftBottom flex">
+            <div class="red2"></div>
+            <div class="blue2"></div>
+          </div>
+        </div>
+        <div class="right"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+    view.scope(function (view, props) {
+        
+    });
+</script>
